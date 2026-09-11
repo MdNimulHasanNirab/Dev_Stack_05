@@ -1,0 +1,102 @@
+[
+  {
+    "id": "react",
+    "name": "React",
+    "category": "Frontend",
+    "description": "A declarative, component-based JavaScript library for building modern user interfaces.",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+    "rating": 4.9,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Popular"
+  },
+  {
+    "id": "node",
+    "name": "Node.js",
+    "category": "Backend",
+    "description": "JavaScript runtime built on Chrome's V8 engine for building scalable network applications.",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "Essential"
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "category": "Database",
+    "description": "A powerful, open-source object-relational database system with proven reliability.",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg",
+    "rating": 4.7,
+    "difficulty": "Intermediate",
+    "badge": "Top SQL"
+  },
+  {
+    "id": "tailwind",
+    "name": "Tailwind CSS",
+    "category": "Styling",
+    "description": "A utility-first CSS framework for rapidly building custom user interfaces.",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg",
+    "rating": 4.9,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Trending"
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "category": "Language",
+    "description": "Strongly typed programming language that builds on JavaScript, giving you better tooling.",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "Popular"
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "category": "DevOps",
+    "description": "OS-level virtualization to deliver software in packages called containers.",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg",
+    "rating": 4.6,
+    "difficulty": "Advanced",
+    "badge": "Containers"
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "category": "Database",
+    "description": "Document-based distributed database designed for modern application developers.",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
+    "rating": 4.5,
+    "difficulty": "Beginner-Friendly",
+    "badge": "NoSQL"
+  },
+  {
+    "id": "nextjs",
+    "name": "Next.js",
+    "category": "Frontend",
+    "description": "The React Framework for the Web used by modern web developers.",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
+    "rating": 4.9,
+    "difficulty": "Intermediate",
+    "badge": "Fullstack"
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "category": "Language",
+    "description": "High-level programming language known for its readability and versatile ecosystem.",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+    "rating": 4.9,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Versatile"
+  },
+  {
+    "id": "git",
+    "name": "Git",
+    "category": "Tools",
+    "description": "Distributed version control system designed to handle everything from small to large projects.",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
+    "rating": 4.9,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Essential"
+  }
+]
