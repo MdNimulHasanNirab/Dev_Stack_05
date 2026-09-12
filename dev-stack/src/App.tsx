@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import './index.css';
-import './app.css';
+import './App.css';
 
 interface TechItem {
   id: string;
@@ -262,7 +261,6 @@ export default function App() {
           <button
             className="mobile-toggle"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            aria-label="Toggle Navigation"
           >
             ☰
           </button>
@@ -288,23 +286,23 @@ export default function App() {
 
         <div className="hero-illustration">
           <div className="isometric-stack-card">
-            <div className="iso-layer layer-3">
+            <div className="iso-layer">
               <span className="iso-badge">Aa</span>
-              <span className="iso-label">Frontend & UI</span>
+              <span>Frontend & UI</span>
             </div>
-            <div className="iso-layer layer-2">
+            <div className="iso-layer">
               <span className="iso-badge">⚙</span>
-              <span className="iso-label">Backend API</span>
+              <span>Backend API</span>
             </div>
-            <div className="iso-layer layer-1">
+            <div className="iso-layer">
               <span className="iso-badge">🗄</span>
-              <span className="iso-label">Database & Storage</span>
+              <span>Database & Storage</span>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Main Grid Section */}
+      {/* Explore Section */}
       <section className="explore-section" id="technologies">
         <div className="section-header">
           <h2>
@@ -370,13 +368,12 @@ export default function App() {
                   {selectedTechs.map((item) => (
                     <div key={item.id} className="selected-item">
                       <div className="selected-item-info">
-                        <span className="item-icon">{item.iconSvg}</span>
-                        <span className="item-name">{item.name}</span>
+                        <span style={{ color: item.iconBg, display: 'flex' }}>{item.iconSvg}</span>
+                        <span>{item.name}</span>
                       </div>
                       <button
                         className="btn-remove"
                         onClick={() => removeTech(item.id)}
-                        title="Remove"
                       >
                         ✕
                       </button>
