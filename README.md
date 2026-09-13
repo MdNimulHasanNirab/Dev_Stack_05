@@ -1,50 +1,36 @@
-Dev Stack
+Dev Stack 🚀
 
-Dev Stack is a responsive React and TypeScript web application that helps developers explore different technologies and build their own technology stack.
+Dev Stack is a simple React project where users can explore different technologies and add their favorite technology to their own stack.
 
-Live Demo
+I made this project for practicing React basics, component, state management and responsive design.
 
-Add your deployed website link here:
+Live Project
 
-[https://poetic-dango-042d94.netlify.app/](https://poetic-dango-042d94.netlify.app)
-
-Repository
-
-Add your GitHub repository link here:
-
-https://github.com/MdNimulHasanNirab/Dev_Stack_05
+GitHub Repository: https://github.com/MdNimulHasanNirab/Dev_Stack_05
 
 Features
 
-Responsive navigation bar
+Responsive navbar
 
-Mobile navigation menu
+Hero section
 
-Hero section with Dev Stack branding
+Technology cards
 
-Technology cards loaded from a JSON file
+Search technology
 
-Technology category, difficulty, rating, and description
+Filter technologies by category
 
-Select a technology card with a highlighted border
+Add technology to Your Stack
 
-Add technologies to your personal stack
+Prevent duplicate technology adding
 
-Prevent duplicate technologies from being added
-
-Disable the button after a technology is added
-
-Remove individual technologies
+Remove one technology from the stack
 
 Remove all selected technologies
 
-Toast notifications for user actions
+Toast notification
 
-Loading state while technologies are being loaded
-
-Responsive layout for desktop, tablet, and mobile devices
-
-Footer with logo, social links, product links, company links, and legal links
+Responsive design for mobile and desktop
 
 Technologies Used
 
@@ -54,161 +40,107 @@ TypeScript
 
 Vite
 
+HTML
+
 CSS
 
 React Toastify
 
-JSON
-
 Project Structure
 
-dev-stack/
-├── public/
-│   ├── assests/
-│   │   ├── banner-stack.png
-│   │   └── logo-text.png
-│   └── technologies.json
-├── src/
-│   ├── App.tsx
-│   ├── App.css
-│   ├── index.css
-│   └── main.tsx
-├── package.json
-├── package-lock.json
-└── vite.config.ts
+src
+├── App.tsx
+├── App.css
+├── index.css
+└── main.tsx
 
-Installation and Setup
+public
+└── technologies.json
 
-1. Clone the repository
+How to Run the Project
 
-git clone https://github.com/your-username/your-repository.git
+First clone the repository:
 
-2. Go to the project folder
+git clone https://github.com/MdNimulHasanNirab/Dev_Stack_05.git
 
-cd dev-stack
+Then go to the project folder:
 
-3. Install dependencies
+cd Dev_Stack_05
+
+Install all packages:
 
 npm install
 
-4. Start the development server
+Run the project:
 
 npm run dev
 
-5. Open the website
+React Questions and Answers
 
-Open the local URL shown in your terminal, usually:
+1. What is JSX?
 
-http://localhost:5173
+JSX is a special syntax of JavaScript. It help us to write HTML like code inside JavaScript file. It make React code more easy to understand.
 
-How It Works
+2. What is the difference between state and props?
 
-Explore Technologies
+Props are used to send data from parent component to child component. Props cannot be changed by the child component.
 
-The application loads technology information from:
+State is used to store data inside a component. When state change, React render the component again.
 
-public/technologies.json
+3. What is conditional rendering?
 
-Each technology contains information such as:
+Conditional rendering means showing different UI based on a condition. We can use if else, ternary operator or && operator for conditional rendering.
 
-Name
+4. What is the use of useState?
 
-Category
+useState is a React hook which is used for managing state in functional component. It return two things, one is current value and another is function for updating the value.
 
-Description
+5. What is the use of useEffect?
 
-Icon
+useEffect is used for performing side effect in React. For example fetching data, changing document title or running some code after component render.
 
-Rating
+6. How can you pass data from child component to parent component?
 
-Difficulty
+We can pass a function from parent to child using props. Then child component call that function and send data as argument. In this way parent can receive data from child.
 
-Badge
+7. What is the difference between controlled and uncontrolled components?
 
-Build Your Stack
+Controlled component is controlled by React state. The input value is connected with state.
 
-Click on a technology card to select it. The selected card receives a highlighted border.
+Uncontrolled component store its value inside the DOM. We can use ref to access the input value.
 
-Click the Add to Stack button to add the technology to your personal stack.
+Conditional Rendering Example
 
-A technology cannot be added more than once.
+{isLoggedIn ? <h2>Welcome User</h2> : <h2>Please Login</h2>}
 
-Manage Your Stack
+Here React show different content based on the value of isLoggedIn.
 
-You can:
+What I Practiced
 
-View all selected technologies
+While making this project I practiced:
 
-Remove one technology
-
-Remove all technologies
-
-See the total number of selected technologies
-
-Available Scripts
-
-Start development server
-
-npm run dev
-
-Create production build
-
-npm run build
-
-Preview production build
-
-npm run preview
-
-React Concepts Used
-
-This project uses:
-
-Components
-
-JSX
-
-TypeScript types
+React component
 
 useState
 
 useEffect
 
+Props
+
 Event handling
 
-Conditional rendering
-
-Array map()
-
-Array some()
-
-Array filter()
+Array map and filter
 
 Fetching JSON data
 
-Props and class names
+Conditional rendering
 
 Responsive CSS
 
-Future Improvements
-
-Add search functionality
-
-Add technology category filtering
-
-Save the selected stack in local storage
-
-Add a dark mode
-
-Add detailed technology pages
-
-Add authentication
-
-Add project recommendations based on the selected stack
+Git and GitHub
 
 Author
 
-Created by Md. Nimul Hasan.
+Made by Md. Nimul Hasan
 
-License
-
-This project is created for learning and educational purposes.
+Thank you for checking my project!
